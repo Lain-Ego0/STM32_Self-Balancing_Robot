@@ -66,7 +66,7 @@
 - 应用：通过反馈调节PWM输出，使车辆保持平衡并跟踪速度指令。
 
 ### 6. 电机驱动模块（`Motor.c/.h`）
-- 功能：接收PID模块的控制量，输出PWM信号并配合IO口（如通用IO口1~4）控制电机方向，驱动车轮运动。
+- 功能：接收PID模块的控制量，输出PWM信号并配合IO口控制电机方向，驱动车轮运动。
 
 
 ## 五、系统工作流程
@@ -155,7 +155,7 @@ The project is developed with Keil MDK and adopts a **modular hierarchical desig
 
 ### 6. Motor Drive Module (`Motor.c/.h`)
 
-- Function: Receives the control quantity from the PID module, outputs PWM signals, and controls the motor direction with the help of IO ports (such as general IO ports 1~4) to drive the wheels.
+- Function: Receives the control quantity from the PID module, outputs PWM signals, and controls the motor direction with the help of IO ports to drive the wheels.
 
 
 ## 5. System Workflow
