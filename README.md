@@ -1,5 +1,9 @@
 # STM32_Self-Balancing_Robot
 
+本项目完成于2024年1月13日，不再更新。
+
+This project was completed on January 13, 2024, and will no longer be updated.
+
 ## 一、项目概述
 本项目基于STM32F103C8T6系列单片机开发自平衡车系统，集成**姿态检测（MPU6050）**、**电机速度反馈（编码器）**、**状态显示（OLED）**和**PID闭环控制**等模块，通过多传感器融合与控制算法实现两轮自平衡功能，适用于嵌入式控制与机器人技术学习。
 
